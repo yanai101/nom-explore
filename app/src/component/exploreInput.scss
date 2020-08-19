@@ -1,0 +1,9 @@
+.explore-from {
+  padding-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 200px) 100px;
+  align-items: center;
+  .explore-field {
+    margin: 5px;
+  }
+}

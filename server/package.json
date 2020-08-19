@@ -1,0 +1,23 @@
+{
+  "name": "explore-server",
+  "version": "1.0.0",
+  "description": "Builder Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect server.js",
+    "serve": "server.js",
+    "sudo": "sudo ./node_modules/.bin/nodemon --inspect server.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

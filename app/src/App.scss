@@ -1,0 +1,19 @@
+.App {
+  padding: 15px;
+  min-height: 100vh;
+  background-color: var(--mainBgColor);
+  font-size: calc(10px + 2vmin);
+  color: #000;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+
+  .input_theme {
+    &input:valid + fieldset {
+      border-color: green;
+      border-width: 2;
+    }
+  }
+  .dependencies {
+    font-size: 1rem;
+  }
+}
