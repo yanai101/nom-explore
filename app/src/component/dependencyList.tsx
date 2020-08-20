@@ -1,9 +1,10 @@
 import React from "react";
 import { getPackageInfo } from "../utils/apiManager";
+import { Dependency } from "../interfaces/dependency";
 import "./dependencyList.scss";
 
 interface DependencyListProps {
-  list: any;
+  list: Dependency | undefined ;
   setList: any;
 }
 

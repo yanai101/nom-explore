@@ -5,7 +5,6 @@ import { getPackageInfo } from "../utils/apiManager";
 
 interface IProps {
   setList(data: any): void;
-  // any other props that come into the component
 }
 
 export function ExploreInput({ setList }: IProps) {
